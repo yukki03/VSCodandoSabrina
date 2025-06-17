@@ -1,0 +1,18 @@
+Algoritimo "O Uso do Se"
+// Descrição: Demonstra o uso da estrutura condicional "Se"
+// Autor: Sabrina Gomes
+// Data: 17/06/2025
+Var
+    n:real // Declaração da variável n como do tipo real
+Inicio
+    escreva("Verificador: O número é maior que 500?") // Exibe o título do programa
+    escreva("Introduza um número: ") // Solicita ao utilizador que digite um número
+    leia(n) // Lê o valor digitado pelo utilizador e armazena na variável numero
+
+    se n > 500 entao
+        escreva("O número inserido é maior que 500.") // Exibe mensagem se o número for maior que 500
+    senao
+        escreva("O número inserido é menor ou igual a 500.") // Exibe mensagem se o número for menor ou igual a 500
+    fimse // Fim da estrutura condicional
+
+FimAlgoritmo
