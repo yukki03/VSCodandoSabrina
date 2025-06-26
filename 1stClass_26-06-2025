@@ -1,0 +1,38 @@
+// // Exercicio 1
+// Algoritimo "Calcular salário com bônus por tempo de serviço"
+// // Descrição: Calcula o salário de um funcionário com base no tempo de serviço e um bônus fixo.
+
+// Var
+//    salario, tempoServico, bonus: real
+// Inicio
+//     Ler(salario) // Solicita ao usuário que digite o salário do funcionário
+//     Ler(tempoServico) // Solicita ao usuário que digite o tempo de serviço do funcionário
+//     bonus <- (0.05 * salario)* tempoServico // Calcula o bônus com base no tempo de serviço
+//     escreva("O salário com bônus é: ", salario + bonus) // Exibe o  salário total com o bônus
+// FimAlgoritmo
+
+// // Exercicio 2
+// Algoritimo "Calcular Commissão de Vendas"
+// // Descrição: Calcula a comissão de vendas de um vendedor com base no total de vendas e uma taxa fixa.
+// Var
+//    totalVendas, taxaComissao, comissao: real
+// Inicio
+//    escreva("Digite o total de vendas: ") // Solicita ao usuário que digite o total de vendas
+//    leia(totalVendas)
+//     escreva("Digite a taxa de comissão: ") // Solicita ao usuário que digite a taxa de comissão já dividida por 100
+//    // Exemplo: 5% deve ser digitado como 0.05
+//    leia(taxaComissao)
+//    comissao <- totalVendas * taxaComissao // Calcula a comissão com base no total de vendas e na taxa
+//    escreva("A comissão de vendas é: ", comissao) // Exibe a comissão calculada
+// FimAlgoritmo
+
+// // exercicio 1 ficha 2
+// Algoritimo "Converter Horas para Segundos"
+
+// Var
+//    horas, segundos: inteiro
+// Inicio
+//    escreva("Digite a quantidade de horas inteiras: ") // Solicita ao usuário que digite a quantidade de horas
+//    leia(horas)
+//    segundos <- horas * 3600 // Converte horas para segundos e soma com os minutos convertidos
+// FimAlgoritmo
