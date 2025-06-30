@@ -1,0 +1,16 @@
+Algoritimo "Notas Válida - com Repeta"
+// Descrição: Vai ser introduzida uma nota. Se for inválida, o programa solicitará uma nova nota até que uma nota válida seja inserida (entre 0 e 20).
+// Autor: Sabrina Gomes
+// Data: 30-06-2025
+// UFCD: 0804 - Algoritmos
+Var
+   nota: real
+Inicio
+    repita // Inicia um ciclo de repetição
+        escreva("Digite uma nota entre 0 e 20: ")
+        leia(nota)
+        se (nota < 0) ou (nota > 20) // Verifica se a nota é inválida
+            escreva("Nota inválida. Tente novamente.") // Informa ao usuário que a nota é inválida
+    até (nota < 0) ou (nota > 20) // Condição de parada: enquanto a nota for menor que 0 ou maior que 20
+    escreva("A nota introduzida foi: ", nota) // Exibe a nota válida inserida pelo usuário
+FimAlgoritmo

@@ -1,0 +1,41 @@
+// Algoritimo "Receba um número de 1 a 7 e informe o dia da semana correspondente com Switch"
+// //Descrição: Recebe um número de 1 a 7 e informa o dia da semana correspondente usando a estrutura Switch.
+// //Autor: Sabrina Gomes
+// //Data: 27-06-2025
+// //UFCD: Estrutura de Dados
+
+// Var
+//    numero: inteiro
+// Inicio
+//    escreva("Digite um número de 1 a 7: ") // Solicita ao usuário que digite um número
+//     leia(numero) // Lê o número digitado pelo usuário
+//     escolha numero
+//         caso 1:
+//             escreva("Domingo") // Exibe "Domingo" se o número for 1
+//         caso 2:
+//             escreva("Segunda-feira") // Exibe "Segunda-feira" se o número for 2
+//         caso 3:
+//             escreva("Terça-feira") // Exibe "Terça-feira" se o número for 3
+//         caso 4:
+//             escreva("Quarta-feira") // Exibe "Quarta-feira" se o número for 4
+//         caso 5:
+//             escreva("Quinta-feira") // Exibe "Quinta-feira" se o número for 5
+//         caso 6:
+//             escreva("Sexta-feira") // Exibe "Sexta-feira" se o número for 6
+//         caso 7:
+//             escreva("Sábado") // Exibe "Sábado" se o número for 7
+//         outro:
+//             escreva("Número inválido") // Exibe mensagem de erro se o número não corresponder a nenhum caso
+//         fimescolha
+// FimAlgoritmo
+
+Algoritimo "Ciclos"
+//Descrição: Exemplo de uso de ciclos para imprimir números de 1 a 10.
+//Autor: Sabrina Gomes
+//Data: 27-06-2025
+//UFCD: Estrutura de Dados
+Var
+   i: inteiro
+Inicio
+
+FimAlgoritmo
