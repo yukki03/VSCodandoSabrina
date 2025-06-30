@@ -1,0 +1,25 @@
+Algoritmo "Vetores - Exemplo de Uso"
+// Descrição: Lê nome dos 5 alunos e suas notas, e exibe os nomes e notas.
+// Autor: Sabrina Gomes
+// Data: 30-06-2025
+// UFCD: Estrutura de Dados
+Var
+   alunos: vetor[1..5] de caracter // Vetor para armazenar os nomes dos alunos
+   notas: vetor[1..5] de real // Vetor para armazenar as notas dos alunos
+   contador: inteiro // Variável de controle do ciclo
+Inicio
+   // Ciclo para ler os nomes e notas dos alunos
+   para contador de 1 ate 5 faca
+      escreva("Digite o nome do aluno ", contador, ": ")
+      leia(alunos[contador]) // Lê o nome do aluno
+      escreva("Digite a nota do aluno ", contador, ": ")
+      leia(notas[contador]) // Lê a nota do aluno
+   fimpara
+
+   // Ciclo para exibir os nomes e notas dos alunos
+   escreva("Nomes e Notas dos Alunos: ", "\n")
+   para contador de 1 ate 5 faca
+      escreva("Aluno: ", alunos[contador], " - Nota: ", notas[contador]:0:2, "\n") // Exibe o nome e a nota
+   fimpara
+    escreva("Fim do programa.") // Mensagem de fim do programa
+FimAlgoritmo
