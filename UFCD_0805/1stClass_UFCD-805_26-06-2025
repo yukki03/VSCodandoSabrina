@@ -1,7 +1,7 @@
 // // Exercicio 1
 // Algoritimo "Calcular salário com bônus por tempo de serviço"
 // // Descrição: Calcula o salário de um funcionário com base no tempo de serviço e um bônus fixo.
-// // UFCD: PEDRO
+// // UFCD: 0805
 // Var
 //    salario, tempoServico, bonus: real
 // Inicio
