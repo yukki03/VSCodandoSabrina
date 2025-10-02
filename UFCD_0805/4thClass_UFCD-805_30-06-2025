@@ -2,7 +2,7 @@ Algoritmo "Vetores - Exemplo de Uso"
 // Descrição: Lê nome dos 5 alunos e suas notas, e exibe os nomes e notas.
 // Autor: Sabrina Gomes
 // Data: 30-06-2025
-// UFCD: Estrutura de Dados
+// UFCD: 0805 Estrutura de Dados
 Var
    alunos: vetor[1..5] de caracter // Vetor para armazenar os nomes dos alunos
    notas: vetor[1..5] de real // Vetor para armazenar as notas dos alunos
