@@ -1,0 +1,20 @@
+Algoritimo "Calcular Média"
+// Descrição: Calcula a média de dois números fornecidos pelo utilizador
+// Autor: Sabrina Gomes
+// Data: 17/06/2025
+Var
+   n1,n2,soma:real // Declaração das variáveis n1, n2 e soma como do tipo real
+Inicio
+   // Apontamentos:
+   // '//comentário' <- para comentários de uma linha
+   // '<- atribuição' <- para atribuir valores às variáveis
+
+   escreva("Calculadora de Média") // Exibe o título do programa
+   escreva("Digite o valor do primeiro número: ") // Solicita ao usuário que digite um valor
+   leia(n1)
+   escreva("Digite o valor do segundo número: ") // Solicita ao usuário que digite outro valor
+   leia(n2)
+   soma <- n1 + n2 // Calcula a soma dos dois números
+   escreva("A média dos números é: ", soma/2) // Exibe a média dos números
+
+FimAlgoritmo // Fim do algoritmo
