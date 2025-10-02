@@ -2,7 +2,7 @@
 // //Descrição: Recebe um número de 1 a 7 e informa o dia da semana correspondente usando a estrutura Switch.
 // //Autor: Sabrina Gomes
 // //Data: 27-06-2025
-// //UFCD: Estrutura de Dados
+// //UFCD: 0805 Estrutura de Dados
 
 // Var
 //    numero: inteiro
